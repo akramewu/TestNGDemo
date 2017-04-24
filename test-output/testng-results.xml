@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21521" started-at="2017-04-23T08:55:00Z" finished-at="2017-04-23T08:55:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21521" started-at="2017-04-23T08:55:00Z" finished-at="2017-04-23T08:55:22Z">
+      <class name="com.wordpress.Testcases.VerifyWordpressLogin">
+        <test-method status="PASS" signature="BrowserLaunch()[pri:0, instance:com.wordpress.Testcases.VerifyWordpressLogin@156b88f5]" name="BrowserLaunch" is-config="true" duration-ms="1800" started-at="2017-04-23T10:55:00Z" finished-at="2017-04-23T10:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:com.wordpress.Testcases.VerifyWordpressLogin@156b88f5]" name="verifyValidLogin" duration-ms="11339" started-at="2017-04-23T10:55:02Z" finished-at="2017-04-23T10:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="verifyValidLogout()[pri:0, instance:com.wordpress.Testcases.VerifyWordpressLogin@156b88f5]" name="verifyValidLogout" duration-ms="3915" started-at="2017-04-23T10:55:13Z" finished-at="2017-04-23T10:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogout -->
+        <test-method status="PASS" signature="BrowserTerminate()[pri:0, instance:com.wordpress.Testcases.VerifyWordpressLogin@156b88f5]" name="BrowserTerminate" is-config="true" duration-ms="4419" started-at="2017-04-23T10:55:17Z" finished-at="2017-04-23T10:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTerminate -->
+      </class> <!-- com.wordpress.Testcases.VerifyWordpressLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
